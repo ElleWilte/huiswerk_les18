@@ -1,0 +1,77 @@
+header{
+  background-color: red;
+  background-image: url(afbeeldingen/foto_delft.jpg);
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+height: 350px;
+font-family: 'Redressed', cursive;
+}
+footer{
+background-color: yellow;
+width: 100%;
+height: 200px;
+clear: left;
+}
+p {
+  font-family: 'Redressed', cursive;
+}
+h1 {
+  display:inline-block;
+  position: relative;
+  top: 15px;
+  left: 550px;}
+h2 {
+  font-family: 'Redressed', cursive;
+}
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+[class*="col-"] {
+float: left;
+padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+#een{
+min-height: 300px;
+background-color: green;
+}
+#twee{
+background-color: olive;
+height: 790px;
+width: 100%;
+}
+.prinsenhof{
+width: 100%;
+height: 200px;
+margin-left: 10px;
+}
+.vermeercentrum{
+width: 100%;
+height: 200px;
+margin-left: 10px;
+}
+img {
+  float: right;
+  width: 600px;
+  height: auto;
+  padding: 5px;
+}
+section {
+  padding: 10px;
+}
+#content {
+margin-top: 20px}
